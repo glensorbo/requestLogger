@@ -1,0 +1,9 @@
+src
+node_modules
+
+.eslint*
+.prettier*
+
+tsconfig.json
+tsup.config.ts
+
