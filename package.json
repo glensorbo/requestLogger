@@ -1,5 +1,5 @@
 {
-  "name": "requestlogger",
+  "name": "@glensorbo/requestlogger",
   "version": "1.0.0",
   "description": "Simple http logger middleware for expressjs",
   "main": "dist/index.js",
