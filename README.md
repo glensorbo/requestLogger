@@ -9,8 +9,13 @@ If running in docker, it will show timestamp as the docker container is configur
 To alter this in docker, start your container with environment: TZ=<timezone> Example: TZ=Europe/Oslo.
 
 Install by running
+Npm
 ```shell
-npm install @glensorbo/requestLogger
+npm install @glensorbo/requestlogger
+```
+Yarn
+```shell
+yarn add @glensorbo/requestlogger
 ```
 
 Use by setting middleware at app level, or per route. App level will run this middleware for every request on every route.
