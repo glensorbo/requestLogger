@@ -11,7 +11,9 @@
     "lint": "eslint . --ext .ts --cache --report-unused-disable-directives --max-warnings 0",
     "prettier": "prettier --check \"**/*.{ts,tsx}\"",
     "prettier:write": "prettier --write \"**/*.{ts,tsx}\"",
-    "build": "tsup"
+    "build": "tsup",
+    "codeCheck": "npm run tscheck && npm run lint && npm run prettier",
+    "release": "npm run build && changeset publish"
   },
   "repository": {
     "type": "git",
