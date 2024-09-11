@@ -61,7 +61,7 @@ import type { Express } from 'express';
 const app: Express = express();
 
 // requestLogger will not trigger on this route as it's being used after this endpoint
-app.get('/', function (req, res) {
+app.get('/health', function (req, res) {
   res.send('OK');
 })
 
