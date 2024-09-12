@@ -1,0 +1,12 @@
+#!/bin/bash
+
+BASE=$(git merge-base HEAD main)
+
+changes=$(git diff --name-only HEAD $BASE src)
+
+if [ ! -z "$changed" ] 
+  then 
+    echo "Changes found - running checks"
+
+    npm run codeCheck
+fi

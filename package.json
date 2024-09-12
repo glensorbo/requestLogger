@@ -13,7 +13,8 @@
     "prettier:write": "prettier --write \"**/*.{ts,tsx}\"",
     "build": "tsup",
     "codeCheck": "npm run tscheck && npm run lint && npm run prettier",
-    "release": "npm run build && changeset publish"
+    "release": "npm run build && changeset publish",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.30.0",
+    "husky": "^9.1.6",
     "prettier": "3.3.3",
     "prettier-plugin-sort-imports": "^1.8.6",
     "tsup": "^8.2.4",
