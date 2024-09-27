@@ -21,7 +21,7 @@ export const createResponseLog = (
 
   const contentType = res.getHeader('content-type');
   if (contentType && typeof contentType === 'string') {
-    log = log.concat(styleText('blue', styleText('dim', `${contentType} `)));
+    log = log.concat(styleText('magenta', `${contentType} `));
   }
 
   const bytes = res.getHeader('content-length');
