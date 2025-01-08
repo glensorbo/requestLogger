@@ -15,7 +15,7 @@ export const createResponseLog = (
   const httpStatus = http.STATUS_CODES[statusCode] ?? '';
   const statusColor = getStatusColor(statusCode);
   const status = `${styleText(statusColor, statusCode.toString())} ${styleText(statusColor, httpStatus)}`;
-  const time = styleText('dim', dayjs().format('YYYY-MM-DD HH:ss'));
+  const time = styleText('dim', dayjs().format('YYYY-MM-DD HH:mm'));
 
   let log = `${time} - ${id} ${styleText('dim', '<--')} ${status} `;
 
