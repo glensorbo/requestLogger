@@ -1,5 +1,11 @@
 # @glensorbo/requestlogger
 
+## 1.1.2
+
+### Patch Changes
+
+- afd233c: changes request timestamp from :ss to :mm
+
 ## 1.1.1
 
 ### Patch Changes
