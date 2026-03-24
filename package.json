@@ -33,7 +33,7 @@
     "prettier": "3.8.1",
     "prettier-plugin-sort-imports": "^1.8.6",
     "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
+    "typescript": "^6.0.2"
   },
   "dependencies": {
     "dayjs": "^1.11.13",
